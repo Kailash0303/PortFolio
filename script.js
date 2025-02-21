@@ -1,6 +1,4 @@
-let n=20;
-for(let i =0 ; i++ ; i<n){
-console.log(".");
-}
-
-console.log("hello") *10;
+var typed = new Typed('#element', {
+    strings: ['Web Developer', '&amp; Java developer.' ] ,
+    typeSpeed: 50,
+  });
