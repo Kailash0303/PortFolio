@@ -19,12 +19,13 @@
         <div class="left">Kailash's Portfolio</div>
         <div class="right">
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Services</a></li>
-            <li><a href="/">Projects</a></li>
-            <li><a href="/">Contact Me</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
           </ul>
+          
         </div>
       </nav>
     </header>
@@ -35,10 +36,15 @@
           <div>Hi, My name is <span class="purple">Kailash</span></div>
           <div>and I am a passionate</div>
           <span id="element"></span>
+
+   
           <div class="buttons">
-            <button class="btn">Resume</button>
-            <button class="btn">Github</button>
+            <a href="resume.pdf" target="_blank"><button class="btn">Resume</button></a>
+            <a href="https://github.com/Kailash0303" target="_blank"><button class="btn">GitHub</button></a>
           </div>
+          
+
+
         </div>
 
         <div class="rightSection">
@@ -48,14 +54,15 @@
 
       <hr />
 
-      <section class="secondSection">
+
+      <section class="secondSection" id="about">
         <span class="text-gray">What I have done so far</span>
         <h1>Work Experience</h1>
 
         <div class="box">
           <div class="vertical">
             <img class="image-top" src="images/html.png" alt="dev-image" />
-            <div class="vertical-title">HTML Developrt(2010 - 2012)</div>
+            <div class="vertical-title">HTML Developer(2010 - 2012)</div>
             <div class="vertical-desc">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
               doloribus obcaecati rerum vitae officia pariatur, sequi iure
@@ -65,7 +72,7 @@
 
           <div class="vertical">
             <img class="image-top" src="images/youtube.png" alt="dev-image" />
-            <div class="vertical-title">HTML Developrt(2010 - 2012)</div>
+            <div class="vertical-title">Youtube(2012 - 2013)</div>
             <div class="vertical-desc">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
               doloribus obcaecati rerum vitae officia pariatur, sequi iure
@@ -75,7 +82,7 @@
 
           <div class="vertical">
             <img class="image-top" src="images/whatsapp.png" alt="dev-image" />
-            <div class="vertical-title">HTML Developrt(2010 - 2012)</div>
+            <div class="vertical-title">Whatsapp(2013 - 2014)</div>
             <div class="vertical-desc">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
               doloribus obcaecati rerum vitae officia pariatur, sequi iure
@@ -85,7 +92,7 @@
 
           <div class="vertical">
             <img class="image-top" src="images/linkden.png" alt="dev-image" />
-            <div class="vertical-title">HTML Developrt(2010 - 2012)</div>
+            <div class="vertical-title">Linkden(2014 - 2016)</div>
             <div class="vertical-desc">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
               doloribus obcaecati rerum vitae officia pariatur, sequi iure
@@ -95,7 +102,7 @@
 
           <div class="vertical">
             <img class="image-top" src="images/insta.png" alt="dev-image" />
-            <div class="vertical-title">HTML Developrt(2010 - 2012)</div>
+            <div class="vertical-title">Instagram(2016 - 2017)</div>
             <div class="vertical-desc">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
               doloribus obcaecati rerum vitae officia pariatur, sequi iure
@@ -105,7 +112,7 @@
 
           <div class="vertical">
             <img class="image-top" src="images/twitter.png" alt="dev-image" />
-            <div class="vertical-title">HTML Developrt(2010 - 2012)</div>
+            <div class="vertical-title">Twitter(2018 - 2019)</div>
             <div class="vertical-desc">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
               doloribus obcaecati rerum vitae officia pariatur, sequi iure
@@ -115,7 +122,7 @@
 
           <div class="vertical">
             <img class="image-top" src="images/facebook.png" alt="dev-image" />
-            <div class="vertical-title">HTML Developrt(2010 - 2012)</div>
+            <div class="vertical-title">Facebook(2020 - 2025)</div>
             <div class="vertical-desc">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
               doloribus obcaecati rerum vitae officia pariatur, sequi iure
@@ -125,6 +132,53 @@
 
         </div>
       </section>
+
+<!-- added today -->
+      <section class="projectsSection" id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+          <div class="project-card">
+            <h3>Calorie Predictor App</h3>
+            <p>A web app that predicts calories burnt using ML models and has a stylish frontend.</p>
+          </div>
+          <div class="project-card">
+            <h3>Bank Loan Prediction</h3>
+            <p>Predicts whether a bank loan should be approved using Random Forest.</p>
+          </div>
+          <div class="project-card">
+            <h3>Crop Yield Forecasting</h3>
+            <p>Uses CNN and XGBoost to predict crop yield based on location and weather.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="skillsSection" id="services">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+          <div class="skill"><img src="images/html.png" alt="HTML"><p>HTML</p></div>
+          <div class="skill"><img src="images/css.png" alt="CSS"><p>CSS</p></div>
+          <div class="skill"><img src="images/js.png" alt="JavaScript"><p>JavaScript</p></div>
+          <div class="skill"><img src="images/python.png" alt="Python"><p>Python</p></div>
+          <div class="skill"><img src="images/java.png" alt="Java"><p>Java</p></div>
+          <div class="skill"><img src="images/aws.png" alt="AWS"><p>AWS</p></div>
+        </div>
+      </section>
+
+      <section class="contactSection"  id="contact">
+        <h2>Contact Me</h2>
+        <form class="contactForm" action="mailto:youremail@example.com" method="post" enctype="text/plain">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send</button>
+        </form>
+      </section>
+      
+      
+      
+
+
+
     </main>
 
     <footer>
